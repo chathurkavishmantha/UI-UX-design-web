@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 15px; */
+    color: #201a34;
+    /* font-weight: 300; */
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.container-fluid {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 100%;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+#who-we-are {
+    margin-top: 75px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #8d0f4a;
+}
+
+.btn-primary:hover {
+    background: #9ed081 !important;
+    transition: all .3s;
+    color: #fff !important;
+  }
+
+  .btn-primary {
+    border: none;
+    border-radius: 0;
+    background: #72bf44 !important;
+    font-size: 13px;
+    font-weight: 300 !important;
+    color: #fff !important;
+  }
+
+.sub-menu{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 20px;  
+}
+
+.sub-menu .text-a{
+    background-color: transparent;
+    color: #333333 !important;  
+}
+
+/* slider */
+#homepageskider .carousel-control-prev,
+#homepageskider .carousel-control-next {
+  width: auto;
+  opacity: 1;
+}
+#homepageskider .carousel-control-prev i,
+#homepageskider .carousel-control-next i {
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 30px;
+  padding: 17px 25px;
+}
+#homepageskider .carousel-control-prev .carousel-control-next-icon,
+#homepageskider .carousel-control-next .carousel-control-next-icon,
+#homepageskider .carousel-control-prev .carousel-control-prev-icon,
+#homepageskider .carousel-control-next .carousel-control-prev-icon {
+  background: rgba(0, 0, 0, 0.4) !important;
+  color: #fff;
+  padding: 28px 32px;
+  opacity: 1;
+}
+#homepageskider .carousel-caption {
+  padding-bottom: 0 !important;
+}
+#homepageskider .carousel-caption h3 {
+  font-size: 48px;
+  font-weight: 400;
+}
+#homepageskider .carousel-caption p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+  width: 580px;
+}
+
+.carousel-caption {
+    text-align: left;
+  }
+
+.animated{
+    /* -webkit-animation-duration: 1s; */
+    animation-duration: 1s;
+    /* -webkit-animation-fill-mode: both; */
+    animation-fill-mode: both;
+}
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+  }
+
+/* slider end */
+
+/* navbar */
+.navbar .active {
+    color: #72bf44 !important;
+}
+
+.navbar .nav-item {
+    padding-left: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.761);
+    font-weight: 500;
+  }
+
+  .top-navigation .inner .search-form input {
+    border: none;
+    border-bottom: 1px solid #72bf44;
+    width: 150px;
+  }
+  .top-navigation .inner .search-form button {
+    border: none;
+    background: none;
+    color: #72bf44;
+  }
+/* nav bar end */
+
